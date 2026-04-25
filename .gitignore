@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# App config (contains encrypted credentials — never commit)
+bluetooth_twilio_bridge/config.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
